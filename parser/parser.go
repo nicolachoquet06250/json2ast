@@ -4,11 +4,12 @@ package parser
 import (
 	"errors"
 	"fmt"
-	"json2ast/ast"
-	"json2ast/lexer"
-	"json2ast/token"
 	"strconv"
 	"strings"
+
+	"github.com/nicolachoquet06250/json2ast/ast"
+	"github.com/nicolachoquet06250/json2ast/lexer"
+	"github.com/nicolachoquet06250/json2ast/token"
 )
 
 // Parser holds a Lexer, errors, the currentToken, and the peek peekToken (next token).

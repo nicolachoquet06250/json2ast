@@ -2,10 +2,11 @@
 package dora
 
 import (
-	"json2ast/ast"
-	"json2ast/lexer"
-	"json2ast/parser"
 	"strconv"
+
+	"github.com/nicolachoquet06250/json2ast/ast"
+	"github.com/nicolachoquet06250/json2ast/lexer"
+	"github.com/nicolachoquet06250/json2ast/parser"
 )
 
 // Client represents a dora client. The client holds things like a copy of the input, the tree (the

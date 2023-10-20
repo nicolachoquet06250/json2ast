@@ -3,8 +3,9 @@ package dora
 import (
 	"errors"
 	"fmt"
-	"json2ast/ast"
-	"json2ast/danger"
+
+	"github.com/nicolachoquet06250/json2ast/ast"
+	"github.com/nicolachoquet06250/json2ast/danger"
 )
 
 var (

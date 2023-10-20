@@ -2,8 +2,9 @@ package dora
 
 import (
 	"fmt"
-	"json2ast/danger"
 	"strconv"
+
+	"github.com/nicolachoquet06250/json2ast/danger"
 )
 
 // The available accessTypes for a dora query
