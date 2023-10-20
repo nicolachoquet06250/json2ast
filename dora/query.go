@@ -1,11 +1,10 @@
 package dora
 
 import (
+	"ast"
+	"danger"
 	"errors"
 	"fmt"
-
-	"github.com/nicolachoquet06250/json2ast/ast"
-	"github.com/nicolachoquet06250/json2ast/danger"
 )
 
 var (

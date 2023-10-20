@@ -2,7 +2,7 @@
 package lexer
 
 import (
-	"github.com/nicolachoquet06250/json2ast/token"
+	"token"
 )
 
 // Lexer holds input data and fields that help with scanning.
